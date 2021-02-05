@@ -13,6 +13,6 @@ def test_single_grade():
 
 
 def test_two_grades():
+    # Two grades that average to an integer.
     grades = [41, 43]
     assert compute_hw_average(grades) == 42
-    
